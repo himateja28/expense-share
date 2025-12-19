@@ -1,5 +1,5 @@
 const API = (() => {
-  const baseUrl = 'https://expense-share-newz.onrender.com/';
+  const baseUrl = 'https://expense-share-newz.onrender.com';
 
   function useAuthFetch(token, onUnauthorized) {
     return async (path, options = {}) => {
