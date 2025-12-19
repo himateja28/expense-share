@@ -1,5 +1,5 @@
 const API = (() => {
-  const baseUrl = 'https://expense-trackerserver-a9fuhccmewf0gnhm.westindia-01.azurewebsites.net/';
+  const baseUrl = 'https://expense-share-newz.onrender.com/';
 
   function useAuthFetch(token, onUnauthorized) {
     return async (path, options = {}) => {
