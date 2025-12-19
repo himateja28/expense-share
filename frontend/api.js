@@ -1,5 +1,5 @@
 const API = (() => {
-  const baseUrl = 'https://expense-share-sigma.vercel.app/';
+  const baseUrl = 'https://expense-trackerserver-a9fuhccmewf0gnhm.westindia-01.azurewebsites.net/';
 
   function useAuthFetch(token, onUnauthorized) {
     return async (path, options = {}) => {
