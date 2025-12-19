@@ -1,5 +1,5 @@
 const API = (() => {
-  const baseUrl = 'http://localhost:4000';
+  const baseUrl = 'https://expense-share-sigma.vercel.app/';
 
   function useAuthFetch(token, onUnauthorized) {
     return async (path, options = {}) => {
