@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.env
+npm-debug.log*
+yarn-error.log*
+data.db

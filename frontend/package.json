@@ -1,0 +1,11 @@
+{
+  "name": "credresolver-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve -l 4001 -s ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
